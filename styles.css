@@ -1,0 +1,165 @@
+body {
+    display: flex;
+    flex-direction: column;
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+}
+
+h1 {
+    color: #f9faf8;
+    font-weight: 700;
+    font-size: 48px;
+}
+
+h2 {
+    font-size: 36px;
+    font-weight: 700;
+    color: #1f2937;
+}
+
+h3 {
+    font-size: 24px;
+    font-weight: 700;
+    color: #f9faf8;
+    margin: 0;
+}
+
+button {
+    background-color: #3882f6;
+    color: #f9faf8;
+    border-radius: 10px;
+    font-size: 18px;
+    border: none;
+    padding: 8px 36px;
+}
+
+.hero,
+.footer {
+    display: flex;
+    background-color: #1f2937;
+    color: #f9faf8;
+    flex-direction: column;
+    align-items: center;
+}
+
+.header {
+    display: flex;
+    flex-wrap: wrap;
+    width: 56%;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1em;
+}
+
+.links {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: auto;
+    gap: 50px;
+}
+
+.links a {
+    text-decoration: none;
+    color: #e5e7eb;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.info {
+    display: flex;
+    justify-content: center;
+    margin: 100px;
+    width: 56%;
+    flex-wrap: wrap;
+}
+
+.info-text {
+    flex-direction: column;
+    width: 38%;
+}
+
+.info-image {
+    flex-grow: 2;
+    text-align: right;
+}
+
+.cards {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    padding: 2em 0 10em 0;
+}
+
+.cards-list {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.card {
+    margin: 1em 2em;
+}
+
+.card img {
+    height: 10em;
+    width: 10em;
+    border: solid #3882f6;
+    border-radius: 1em;
+}
+
+.quote {
+    background-color: #e5e7eb;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    padding: 5% 28%;
+}
+
+.quote-p {
+    font-size: 36px;
+    font-weight: 300;
+    font-style: italic;
+    color: #1f2937;
+}
+
+.author-p {
+    font-size: 36px;
+    font-weight: bold;
+    text-align: right;
+    justify-self: center;
+}
+
+.sign-up-container {
+    background-color: #3882f6;
+    display: flex;
+    flex-wrap: wrap;
+    width: 54%;
+    border-radius: 8px;
+    padding: 3em 1em;
+    color: #f9faf8;
+    margin: 5em 0;
+    justify-content: space-around;
+}
+
+.sign-up {
+    padding: 0 3em;
+}
+
+.sign-up p {
+    margin: 0;
+}
+
+.sign-up-container button {
+    border: solid #f9faf8 0.16em;
+    align-self: center;
+}
+
+.footer {
+    padding: 1em 0;
+}
